@@ -4,6 +4,8 @@ const resultDisplay = document.querySelector('#result')
 
 const startPauseButton = document.querySelector('#start-pause')
 
+const resetButton = document.querySelector('#reset')
+
 const squares = document.querySelectorAll('.grid div')
 const logsLeft = document.querySelectorAll('.log-left')
 const logsRight = document.querySelectorAll('.log-right')
@@ -182,3 +184,8 @@ startPauseButton.addEventListener('click', () => {
         document.addEventListener('keyup', moveFrog)
     }
 })
+
+resetButton.addEventListener('click', function(){
+    window.location.reload();
+    return false;
+  });
