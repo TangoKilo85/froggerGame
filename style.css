@@ -1,5 +1,12 @@
+body{
+    background-color: darkgreen;
+}
+
 .grid {
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
+    background-color: white;
     height: 180px;
     width: 180px;
     display: flex;
@@ -18,23 +25,6 @@
 .starting-block {
     background-color: blue;
 }
-
-/*.log-left {
-    background-color: lightskyblue;
-}
-
-.log-right {
-    background-color: lightskyblue;
-}
-
-.car-left {
-    background-color: lightslategray;
-}
-
-.car-right {
-    background-color: lightslategray;
-}
-*/
 
 .l1, .l2, .l3 {
     background-color: brown;
